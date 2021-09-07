@@ -1,0 +1,7109 @@
+[
+  {
+    "name": "mtp3_linkset_rct_rx_count",
+    "help": "count of received RCT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sisup_rx_count",
+    "help": "count of received SAT_ISUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_upu_rx_count",
+    "help": "count of received UPU packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sslta_tx_count",
+    "help": "count of sent SSLTA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tcp__rx_count",
+    "help": "count of received TCP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_transit_udts",
+    "help": "count of transited UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_tx",
+    "help": "",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cba_rx_count",
+    "help": "count of received CBA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_down_count",
+    "help": "counter of linkset down events",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lia_rx_count",
+    "help": "count of received LIA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_spared_rx_count",
+    "help": "count of received Spare_D MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_coo_tx_count",
+    "help": "count of sent CCO packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_llt_tx_count",
+    "help": "count of sent LLT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lrt_tx_count",
+    "help": "count of sent LTR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfp_tx_count",
+    "help": "count of sent TFP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tra_rx_count",
+    "help": "count of received TRA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_upu_tx_count",
+    "help": "count of sent UPU packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_dlc_rx_count",
+    "help": "count of received DLC packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_msu_tx_throughput",
+    "help": "throughput of sent MSU",
+    "type": "GAUGE",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_xca_tx_count",
+    "help": "count of sent XCA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_forward_rx",
+    "help": "count of received MTP3 packets which are forwarded (MTP3 Transit)",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_isup_tx_count",
+    "help": "count of sent ISUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "build_number",
+    "help": "",
+    "type": "GAUGE",
+    "metrics": [
+      {
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_eca_tx_count",
+    "help": "count of sent ECA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lia_tx_count",
+    "help": "count of sent LIA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sparee_tx_count",
+    "help": "count of sent Spare_E MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_rx_gsm_op",
+    "help": "counter of GSM_MAP operations received on the system",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "mapop": "0",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "1",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "10",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "100",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "101",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "102",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "103",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "104",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "105",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "106",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "107",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "108",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "109",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "11",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "110",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "111",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "112",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "113",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "114",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "115",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "116",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "117",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "118",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "119",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "12",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "120",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "121",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "122",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "123",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "124",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "125",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "126",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "127",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "128",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "129",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "13",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "130",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "131",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "132",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "133",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "134",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "135",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "136",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "137",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "138",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "139",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "14",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "140",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "141",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "142",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "143",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "144",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "145",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "146",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "147",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "148",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "149",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "15",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "150",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "151",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "152",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "153",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "154",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "155",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "156",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "157",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "158",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "159",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "16",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "160",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "161",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "162",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "163",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "164",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "165",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "166",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "167",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "168",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "169",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "17",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "170",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "171",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "172",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "173",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "174",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "175",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "176",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "177",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "178",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "179",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "18",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "180",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "181",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "182",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "183",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "184",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "185",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "186",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "187",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "188",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "189",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "19",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "190",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "191",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "192",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "193",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "194",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "195",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "196",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "197",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "198",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "199",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "2",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "20",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "200",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "201",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "202",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "203",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "204",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "205",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "206",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "207",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "208",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "209",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "21",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "210",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "211",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "212",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "213",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "214",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "215",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "216",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "217",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "218",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "219",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "22",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "220",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "221",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "222",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "223",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "224",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "225",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "226",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "227",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "228",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "229",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "23",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "230",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "231",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "232",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "233",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "234",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "235",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "236",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "237",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "238",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "239",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "24",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "240",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "241",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "242",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "243",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "244",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "245",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "246",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "247",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "248",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "249",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "25",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "250",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "251",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "252",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "253",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "254",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "255",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "26",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "27",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "28",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "29",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "3",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "30",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "31",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "32",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "33",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "34",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "35",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "36",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "37",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "38",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "39",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "4",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "40",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "41",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "42",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "43",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "44",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "45",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "46",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "47",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "48",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "49",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "5",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "50",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "51",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "52",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "53",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "54",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "55",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "56",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "57",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "58",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "59",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "6",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "60",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "61",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "62",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "63",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "64",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "65",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "66",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "67",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "68",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "69",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "7",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "70",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "71",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "72",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "73",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "74",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "75",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "76",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "77",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "78",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "79",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "8",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "80",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "81",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "82",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "83",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "84",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "85",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "86",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "87",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "88",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "89",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "9",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "90",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "91",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "92",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "93",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "94",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "95",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "96",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "97",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "98",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "99",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cns_rx_count",
+    "help": "count of received CNS packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_css_tx_count",
+    "help": "count of sent CSS packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_dlc_tx_count",
+    "help": "count of sent DLC packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sparec_rx_count",
+    "help": "count of received Spare_C MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfr_tx_count",
+    "help": "count of sent TFR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_bisup_rx_count",
+    "help": "count of received BROADBAND_ISUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lfu_rx_count",
+    "help": "count of received LFU packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lun_rx_count",
+    "help": "count of received LUN packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sparef_tx_count",
+    "help": "count of sent Spare_F MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_rx_udt",
+    "help": "count of received UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_eca_rx_count",
+    "help": "count of received ECA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rcr_tx_count",
+    "help": "count of sent RCR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sccp_rx_count",
+    "help": "count of received SCCP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sisup_tx_count",
+    "help": "count of received SAT_ISUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_slta_tx_count",
+    "help": "count of sent SLTA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lrt_rx_count",
+    "help": "count of received LTR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rcr_rx_count",
+    "help": "count of received RCR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_res_tx_count",
+    "help": "count of sent RES packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_dupf_rx_count",
+    "help": "count of received DUP_F packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_ssltm_tx_count",
+    "help": "count of sent SSLTM packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_transit_gsm",
+    "help": "counter of GSM_MAP operations transiting the system",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "mapop": "0",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "1",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "10",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "100",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "101",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "102",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "103",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "104",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "105",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "106",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "107",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "108",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "109",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "11",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "110",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "111",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "112",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "113",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "114",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "115",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "116",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "117",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "118",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "119",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "12",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "120",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "121",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "122",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "123",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "124",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "125",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "126",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "127",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "128",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "129",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "13",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "130",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "131",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "132",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "133",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "134",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "135",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "136",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "137",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "138",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "139",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "14",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "140",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "141",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "142",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "143",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "144",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "145",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "146",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "147",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "148",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "149",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "15",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "150",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "151",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "152",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "153",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "154",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "155",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "156",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "157",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "158",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "159",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "16",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "160",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "161",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "162",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "163",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "164",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "165",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "166",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "167",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "168",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "169",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "17",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "170",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "171",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "172",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "173",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "174",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "175",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "176",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "177",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "178",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "179",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "18",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "180",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "181",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "182",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "183",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "184",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "185",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "186",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "187",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "188",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "189",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "19",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "190",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "191",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "192",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "193",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "194",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "195",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "196",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "197",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "198",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "199",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "2",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "20",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "200",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "201",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "202",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "203",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "204",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "205",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "206",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "207",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "208",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "209",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "21",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "210",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "211",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "212",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "213",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "214",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "215",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "216",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "217",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "218",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "219",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "22",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "220",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "221",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "222",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "223",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "224",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "225",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "226",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "227",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "228",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "229",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "23",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "230",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "231",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "232",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "233",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "234",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "235",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "236",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "237",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "238",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "239",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "24",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "240",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "241",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "242",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "243",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "244",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "245",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "246",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "247",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "248",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "249",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "25",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "250",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "251",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "252",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "253",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "254",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "255",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "26",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "27",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "28",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "29",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "3",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "30",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "31",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "32",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "33",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "34",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "35",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "36",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "37",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "38",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "39",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "4",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "40",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "41",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "42",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "43",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "44",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "45",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "46",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "47",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "48",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "49",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "5",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "50",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "51",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "52",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "53",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "54",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "55",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "56",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "57",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "58",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "59",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "6",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "60",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "61",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "62",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "63",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "64",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "65",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "66",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "67",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "68",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "69",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "7",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "70",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "71",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "72",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "73",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "74",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "75",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "76",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "77",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "78",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "79",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "8",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "80",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "81",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "82",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "83",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "84",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "85",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "86",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "87",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "88",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "89",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "9",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "90",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "91",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "92",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "93",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "94",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "95",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "96",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "97",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "98",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "99",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cns_tx_count",
+    "help": "count of sent CNS packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_rx_udts",
+    "help": "count of received UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_spared_tx_count",
+    "help": "count of sent Spare_D MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_xco_rx_count",
+    "help": "count of received XCO packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cnp_tx_count",
+    "help": "count of sent CNP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_coa_rx_count",
+    "help": "count of received COA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rst_rx_count",
+    "help": "count of received RST packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lua_rx_count",
+    "help": "count of received LUA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rct_tx_count",
+    "help": "count of sent RCT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_res_rx_count",
+    "help": "count of received RES packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfa_rx_count",
+    "help": "count of received TFA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfc_rx_count",
+    "help": "count of received TFC packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_trw_tx_count",
+    "help": "count of sent TRW packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_transit",
+    "help": "",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cbd_tx_count",
+    "help": "count of sent CBD packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rcp_rx_count",
+    "help": "count of received RCP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rsr_tx_count",
+    "help": "count of sent RSR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_links_available_count",
+    "help": "count of available links in a  linkset",
+    "type": "GAUGE",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sltm_rx_count",
+    "help": "count of received SLTM packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tcr_rx_count",
+    "help": "count of received TCR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_upt_rx_count",
+    "help": "count of received UPT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_rx",
+    "help": "",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cnp_rx_count",
+    "help": "count of received CNP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_dupc_tx_count",
+    "help": "count of sent DUP_C packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_eco_rx_count",
+    "help": "count of received ECO packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sparee_rx_count",
+    "help": "count of received Spare_E MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tca_rx_count",
+    "help": "count of received TCA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfc_tx_count",
+    "help": "count of sent TFC packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_xca_rx_count",
+    "help": "count of received XCA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_dupc_rx_count",
+    "help": "count of received DUP_C packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lid_rx_count",
+    "help": "count of received LID packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lua_tx_count",
+    "help": "count of sent LUA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lin_rx_count",
+    "help": "count of received LIN packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_slta_rx_count",
+    "help": "count of received SLTM packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tcp_tx_count",
+    "help": "count of sent TCP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_bisup_tx_count",
+    "help": "count of sent BROADBAND_ISUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_rx_xudts",
+    "help": "count of received UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_trw_rx_count",
+    "help": "count of received TWR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_up_count",
+    "help": "counter of linkset up events",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_upa_rx_count",
+    "help": "count of received UPA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_eco_tx_count",
+    "help": "count of sent ECO packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lin_tx_count",
+    "help": "count of sent LIN packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfa_tx_count",
+    "help": "count of sent TFA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_css_rx_count",
+    "help": "count of received CSS packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_llt_rx_count",
+    "help": "count of received LLT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_tx_udt",
+    "help": "count of sent UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfr_rx_count",
+    "help": "count of received TFR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_upa_tx_count",
+    "help": "count of sent UPA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "uptime",
+    "help": "Seconds since startup",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "value": "190.4571989774704"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rcp_tx_count",
+    "help": "count of sent RCP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sparef_rx_count",
+    "help": "count of recveived Spare_F MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tca_tx_count",
+    "help": "count of sent TCA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_transit_xudts",
+    "help": "count of transited UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lfu_tx_count",
+    "help": "count of sent LFU packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sltm_tx_count",
+    "help": "count of sent SLTM packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_transit_udt",
+    "help": "count of transited UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cba_tx_count",
+    "help": "count of sent CBA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sccp_tx_count",
+    "help": "count of sent SCCP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_transit_xudt",
+    "help": "count of transited UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_tx_gsm_op",
+    "help": "counter of GSM_MAP operations transiting the system",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "mapop": "0",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "1",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "10",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "100",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "101",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "102",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "103",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "104",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "105",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "106",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "107",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "108",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "109",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "11",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "110",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "111",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "112",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "113",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "114",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "115",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "116",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "117",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "118",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "119",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "12",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "120",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "121",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "122",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "123",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "124",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "125",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "126",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "127",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "128",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "129",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "13",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "130",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "131",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "132",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "133",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "134",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "135",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "136",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "137",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "138",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "139",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "14",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "140",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "141",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "142",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "143",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "144",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "145",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "146",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "147",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "148",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "149",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "15",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "150",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "151",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "152",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "153",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "154",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "155",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "156",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "157",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "158",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "159",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "16",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "160",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "161",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "162",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "163",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "164",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "165",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "166",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "167",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "168",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "169",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "17",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "170",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "171",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "172",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "173",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "174",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "175",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "176",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "177",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "178",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "179",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "18",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "180",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "181",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "182",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "183",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "184",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "185",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "186",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "187",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "188",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "189",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "19",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "190",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "191",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "192",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "193",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "194",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "195",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "196",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "197",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "198",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "199",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "2",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "20",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "200",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "201",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "202",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "203",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "204",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "205",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "206",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "207",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "208",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "209",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "21",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "210",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "211",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "212",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "213",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "214",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "215",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "216",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "217",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "218",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "219",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "22",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "220",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "221",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "222",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "223",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "224",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "225",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "226",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "227",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "228",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "229",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "23",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "230",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "231",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "232",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "233",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "234",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "235",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "236",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "237",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "238",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "239",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "24",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "240",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "241",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "242",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "243",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "244",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "245",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "246",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "247",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "248",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "249",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "25",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "250",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "251",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "252",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "253",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "254",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "255",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "26",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "27",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "28",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "29",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "3",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "30",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "31",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "32",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "33",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "34",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "35",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "36",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "37",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "38",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "39",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "4",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "40",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "41",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "42",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "43",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "44",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "45",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "46",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "47",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "48",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "49",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "5",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "50",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "51",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "52",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "53",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "54",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "55",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "56",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "57",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "58",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "59",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "6",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "60",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "61",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "62",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "63",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "64",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "65",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "66",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "67",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "68",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "69",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "7",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "70",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "71",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "72",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "73",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "74",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "75",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "76",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "77",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "78",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "79",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "8",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "80",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "81",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "82",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "83",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "84",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "85",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "86",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "87",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "88",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "89",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "9",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "90",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "91",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "92",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "93",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "94",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "95",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "96",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "97",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "98",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      },
+      {
+        "labels": {
+          "mapop": "99",
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_tx_xudts",
+    "help": "count of sent UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_msu_tx_count",
+    "help": "count of sent MSU",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_upt_tx_count",
+    "help": "count of sent UPT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_xco_tx_count",
+    "help": "count of sent XCO packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_msu_rx_throughput",
+    "help": "throughput of received MSU",
+    "type": "GAUGE",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rsr_rx_count",
+    "help": "count of received RSR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_rst_tx_count",
+    "help": "count of sent RST packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tra_tx_count",
+    "help": "count of sent TRA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_rx_xudt",
+    "help": "count of received UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_coo_rx_count",
+    "help": "count of received COO packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_isup_rx_count",
+    "help": "count of received ISUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lun_tx_count",
+    "help": "count of sent LUN packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_cbd_rx_count",
+    "help": "count of received CBD packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sslta_rx_count",
+    "help": "count of received SSLTA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tcr_tx_count",
+    "help": "count of sent TCR packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_sparec_tx_count",
+    "help": "count of sent Spare_C MTP3 payload",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_coa_tx_count",
+    "help": "count of sent COA packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_lid_tx_count",
+    "help": "count of sent LID packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_msu_rx_count",
+    "help": "count of received MSU packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tfp_rx_count",
+    "help": "count of received TFP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tup_rx_count",
+    "help": "count of received TUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_tx_udts",
+    "help": "count of sent UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_ssltm_rx_count",
+    "help": "count of received SSLTM packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_tup_tx_count",
+    "help": "count of sent TUP packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "sccp_tx_xudt",
+    "help": "count of sent UDT packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "sccp": "sccp-1"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_dupf_tx_count",
+    "help": "count of sent DUP_F packets",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "name": "mtp3_linkset_local_rx",
+    "help": "count of received MTP3 packets which are processed locally",
+    "type": "COUNTER",
+    "metrics": [
+      {
+        "labels": {
+          "linkset": "mtp3-linkset-itp161"
+        },
+        "value": "0"
+      }
+    ]
+  }
+]
